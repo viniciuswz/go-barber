@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
-import signInImage from '../../assets/sign-in-background.png';
+import signInImage from '../../assets/sign-up-background.png';
 
 export const Container = styled.div`
   display: flex;
@@ -33,10 +33,10 @@ export const Content = styled.div`
       text-decoration: none;
       margin-top: 24px;
       text-align: center;
-      color: #f4ede8;
+      color: #fff;
       transition: 0.2s;
       &:hover {
-        color: ${shade(0.2, '#f4ede8')};
+        opacity: 0.8;
       }
     }
   }
@@ -45,11 +45,11 @@ export const Content = styled.div`
     text-decoration: none;
     margin-top: 24px;
     text-align: center;
-    color: #ff9400;
+    color: #f4ede8;
     align-items: center;
     transition: 0.2s;
     &:hover {
-      opacity: 0.8;
+      color: ${shade(0.2, '#F4EDE8')};
     }
     svg {
       margin-right: 18px;

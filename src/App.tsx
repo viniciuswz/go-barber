@@ -4,7 +4,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
 const App: React.FC = () => {
-  return <SignUp />;
+  return <SignIn />;
 };
 
 export default App;
